@@ -1,6 +1,8 @@
 Anilog
 A platform containing variuos Anime related Blogs
-
+   ```python
+    print('python')
+    ```
 <h2>Installation</h2>
 <h3>Setting up environment</h3>
 `
