@@ -14,3 +14,7 @@ python3 -m venv .venv
 ```sh
 pip install flask
 ```
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
