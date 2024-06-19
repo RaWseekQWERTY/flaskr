@@ -8,13 +8,9 @@ python3 -m venv .venv
 <br>
 ```sh
 . .venv/bin/activate
-```sh
+```
 
 <h2>Install Necessary Libraries<h2>
 ```sh
 pip install flask
 ```
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
