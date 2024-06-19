@@ -2,15 +2,15 @@ Anilog
 A platform containing variuos Anime related Blog
 <h2>Installation</h2>
 <h3>Setting up environment</h3>
-``` sh 
+```sh 
 python3 -m venv .venv
 ```
 <br>
-``` sh
+```sh
 . .venv/bin/activate
 ```
 
 <h2>Install Necessary Libraries<h2>
-``` sh
+```sh
 pip install flask
 ```
