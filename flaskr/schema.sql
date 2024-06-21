@@ -1,5 +1,6 @@
 DROP TABLE IF EXISTS user;
 DROP TABLE IF EXISTS post;
+DROP TABLE IF EXISTS activities;
 
 CREATE TABLE user (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -15,3 +16,8 @@ CREATE TABLE post (
   body TEXT NOT NULL,
   FOREIGN KEY (author_id) REFERENCES user (id)
 );
+
+CREATE TABLE activities (
+  activity_id INTEGER PRIMARY KEY AUTOINCREMENT,
+  userName VARCHAR(255) NOT NULL,
+  FOREIGN KEY (userName) REFERENCES user (username));
