@@ -1,6 +1,5 @@
 import os
 from flask import Flask
-
 #Application Factory Function
 def create_app(test_config=None):
     # create and configure the app
