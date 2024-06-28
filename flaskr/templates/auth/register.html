@@ -5,11 +5,14 @@
 {% endblock %}
 
 {% block content %}
-  <form method="post">
-    <label for="username">Username</label>
-    <input name="username" id="username" required>
-    <label for="password">Password</label>
-    <input type="password" name="password" id="password" required>
-    <input type="submit" value="Register">
-  </form>
+<div class="login-page">
+  <div class="form">
+    <form class="register-form" method="post">
+      <input name="username" type="text" placeholder="username" required/>
+      <input name="password" id="password" type="password" placeholder="password" required/>
+      <input type="submit" value="Register">
+      <p class="message">Already registered? <a href="{{url_for('auth.login')}}">Sign In</a></p>
+    </form>
+  </div>
+</div>
 {% endblock %}
