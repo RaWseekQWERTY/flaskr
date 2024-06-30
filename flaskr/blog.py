@@ -4,7 +4,7 @@ from flask import(
 from flaskr.db import get_DB
 from flaskr.auth import login_required
 
-bp = Blueprint("blog".__name__)
+bp = Blueprint("blog",__name__)
 
 @bp.route('/')
 def index():
