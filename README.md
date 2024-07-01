@@ -12,3 +12,6 @@ python3 -m venv .venv
 
 <h2>Install Necessary Libraries<h2>
 `pip install flask`
+
+<h2>Installing the project</h2>
+`pip install -e . `
