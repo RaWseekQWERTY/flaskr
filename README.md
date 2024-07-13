@@ -1,7 +1,7 @@
 Anilog
 A platform containing variuos Anime related Blog
-<h2>Installation</h2>
-<h3>Setting up environment</h3>
+<h2>Installation </h2>
+<h3>Setting up environment </h3>
 ```sh 
 python3 -m venv .venv
 ```
