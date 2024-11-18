@@ -1,5 +1,6 @@
 Anilog
 A platform containing variuos Anime related Blog
+Followed https://flask.palletsprojects.com/en/stable/tutorial/
 <h2>Installation </h2>
 <h3>Setting up environment </h3>
 ```sh 
